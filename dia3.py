@@ -40,3 +40,26 @@ chovendo = True
 nao_chovendo = not chovendo
 print("Chovendo: ", chovendo)
 print("Não Chovendo: ", nao_chovendo)
+
+# Revisão
+
+#nota > 7 e frequência = 80%
+nota = 8
+frequencia = 60
+passou_de_ano = (nota > 7) and (frequencia > 80)
+print("Passou de ano: ", passou_de_ano)
+
+# senhas iguais
+# criando um registro de usuario
+senha = "teste123"
+confirmacao_senha = "teste1234"
+aviso_senha_errada = senha != confirmacao_senha
+print("A senha está errada? ", aviso_senha_errada)
+
+# mesa de bar
+# 123.85
+# quanto cada pessoa vai pagar? 3
+conta = 123.85
+pessoas = 3
+parte_de_cada_um = conta / pessoas
+print("Cada um tem que pagar: ", parte_de_cada_um)
