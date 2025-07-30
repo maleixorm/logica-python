@@ -1,4 +1,4 @@
-# operadores aritméticos
+# Operadores Aritméticos
 
 a = 5
 b = 2
@@ -22,3 +22,16 @@ print(x >= 5)
 print(y < 5)
 print(y <= 5)
 print(x != y)
+
+
+# Operadores Lógicos
+
+idade = 20
+possui_carteira = True
+pode_dirigir = (idade >= 18) and possui_carteira
+print(pode_dirigir)
+
+eh_estudante = False
+sua_idade = 60
+meia_entrada = eh_estudante == True or idade >= 60
+print(meia_entrada)
