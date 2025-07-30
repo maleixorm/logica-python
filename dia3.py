@@ -35,3 +35,8 @@ eh_estudante = False
 sua_idade = 60
 meia_entrada = eh_estudante == True or idade >= 60
 print(meia_entrada)
+
+chovendo = True
+nao_chovendo = not chovendo
+print("Chovendo: ", chovendo)
+print("Não Chovendo: ", nao_chovendo)
